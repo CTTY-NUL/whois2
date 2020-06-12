@@ -49,7 +49,7 @@ public class Main {
                     System.out.print(a + " ");
                 }
                 System.out.println();
-                //TODO Nick vragen waarom de fuck er -2 en -1  en 0 staat bij de UTF-16
+                //TODO Nick vragen waarom er -2 en -1  en 0 staat bij de UTF-16
                 byte [] array2 = temp.getBytes("UTF-16");
                 for(byte b1: array2){
                     System.out.print(b1 + " ");
