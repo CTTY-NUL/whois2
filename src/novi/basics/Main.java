@@ -40,9 +40,15 @@ public class Main {
                 clipboard.setContents(selection, selection);
                 System.out.println("mja hij bevat het wel... maar hoe kan ik het precies matchen");
 
-                char c = 'a';
-                String a = Integer.toHexString(c);
-
+//                char c = 'a';
+//                String a = Integer.toHexString(c);
+                String zz = temp;
+                for (int i = 0; i < zz.length(); i++){
+                    char c = zz.charAt(i);
+                    String a = Integer.toHexString(c);
+                    System.out.print(a + " ");
+                }
+                System.out.println();
                 //TODO Nick vragen waarom de fuck er -2 en -1  en 0 staat bij de UTF-16
                 byte [] array2 = temp.getBytes("UTF-16");
                 for(byte b1: array2){
