@@ -60,12 +60,16 @@ public class Main {
                 for(byte b2: array){
                     System.out.print(b2 + " ");
                 }
+                System.out.println();
+
+
+                System.out.println("111" + temp + "111");
+                if (temp == "Registrars."){
+                    //TODO geen idee waarom ik deze niet krijg, heb al \r\n etc toegevoegd
+                    System.out.println("WAAROM KRIJG IK DEZE NIET!-------------------------------------------------------");
+                }
             }
 
-            if (temp == "Registrars."){
-                //TODO geen idee waarom ik deze niet krijg, heb al \r\n etc toegevoegd
-                System.out.println("WAAROM KRIJG IK DEZE NIET!-------------------------------------------------------");
-            }
 
 
         }
